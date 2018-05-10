@@ -1,6 +1,8 @@
 # wmr_controller_models
 How to get STL format files of Windows Mixed Reality (WMR) controllers
 
+Individual models available here: https://github.com/chigozienri/wmr_controller_models/tree/master/models, or download whole repository here: https://github.com/chigozienri/wmr_controller_models/archive/master.zip
+
 I wanted to find models of the WMR controllers in a usable 3D format, so that I could model accessories for them. This was surprisingly difficult.
 
 The BabylonJS github repo contains models of the standard (HP, Lenovo, etc.) controllers and the Samsung Odyssey controllers here https://github.com/BabylonJS/Babylon.js/tree/master/assets/meshes/controllers/microsoft in .glb format. This is the format that the controller models are provided to software using the Motion Controller prefab from the Mixed Reality Toolkit as described here: https://docs.microsoft.com/en-us/windows/mixed-reality/gestures-and-motion-controllers-in-unity#rendering-the-motion-controller-model-in-unity and here: https://github.com/Microsoft/MixedRealityToolkit/tree/master/SpatialInput/Samples/RenderController , so I believe this is the origin of these files.
